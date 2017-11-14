@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CMD
+	xmlns="http://www.clarin.eu/cmd/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:cmd="http://www.clarin.eu/cmd/"
+	xmlns:imdi="http://www.mpi.nl/IMDI/Schema/IMDI"
+	xmlns:lat="http://lat.mpi.nl/"
+	xmlns:iso="http://www.iso.org/"
+	xmlns:sil="http://www.sil.org/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:functx="http://www.functx.com"
+	CMDVersion="1.1"
+	xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1407745712035/xsd">
+	<Header>
+		<MdCreator>Niko Partanen, Iźva Komi Documentation Project</MdCreator>
+		<MdCreationDate>2016-10-14</MdCreationDate><MdSelfLink/>
+		<MdProfile>clarin.eu:cr1:p_1407745712035</MdProfile>
+	</Header>
+	<Resources>
+		<ResourceProxyList>
+			<ResourceProxy id="res_1">
+				<ResourceType mimetype="text/x-eaf+xml">Resource</ResourceType>
+				<ResourceRef>kpv_izva20140330-1-fragment.eaf</ResourceRef>
+			</ResourceProxy>
+			<ResourceProxy id="res_2">
+				<ResourceType mimetype="audio/wav">Resource</ResourceType>
+				<ResourceRef>kpv_izva20140330-1-fragment.wav</ResourceRef>
+			</ResourceProxy>
+		</ResourceProxyList><JournalFileProxyList/><ResourceRelationList/></Resources>
+	<Components>
+		<lat-session>
+			<History></History>
+			<Name>kpv_izva20140330-1-fragment</Name>
+			<Title>Conversation with Maria Filippova</Title>
+			<Date>2014-03-30</Date>
+			<descriptions>
+				<Description>Conversation with Vasily Chuprov, Niko Partanen and Maria Filippova.</Description>
+			</descriptions>
+			<Location>
+				<Continent>Europe</Continent>
+				<Country>Russia</Country><Region/>
+				<Address>Diyur</Address>
+			</Location>
+			<Project>
+				<Name>Iźva Komi Documentation Project</Name>
+				<Title>Iźva Komi Documentation Project</Title>
+				<Id>IKDP</Id>
+				<Contact>
+					<Name>Rogier Blokland</Name>
+					<Address>Department of Modern Languages, Finno-Ugric Languages</Address>
+					<Email>rogier.blokland@moderna.uu.se</Email>
+					<Organisation>Uppsala University</Organisation>
+				</Contact>
+				<descriptions>
+					<Description>The Iźva Komi Documentation Project was funded between 2014-2016 by Kone Foundation, Finland. The principal investigators were Rogier Blokland, Michael Rießler and Marina Fedina.</Description>
+				</descriptions>
+			</Project>
+			<Content><Genre/><SubGenre/><Task/><Modalities/><Subject/>
+				<CommunicationContext>
+					<Interactivity>Unspecified</Interactivity>
+					<PlanningType>Unspecified</PlanningType>
+					<Involvement>Unspecified</Involvement>
+					<SocialContext>Unspecified</SocialContext>
+					<EventStructure>Unspecified</EventStructure>
+					<Channel>Unspecified</Channel>
+				</CommunicationContext>
+			</Content>
+			<Actors>
+				<Actor><Role>Speaker</Role><Name/><FullName/>
+					<Code>MVF-F-1984</Code><FamilySocialRole/><EthnicGroup/>
+					<BirthDate>1984</BirthDate>
+					<Sex>Female</Sex>
+					<Education>Unspecified</Education>
+					<Age/><Contact/></Actor>
+				<Actor><Role>Interviewer</Role><Name/><FullName/>
+					<Code>VCP-M-1993</Code><FamilySocialRole/><EthnicGroup/>
+					<BirthDate>1993</BirthDate>
+					<Sex>Male</Sex>
+					<Education>Unspecified</Education>
+					<Age/><Contact/></Actor>
+				<Actor>
+					<Role>Interviewer</Role><Name/><FullName/>
+					<Code>NTP-M-1986</Code><FamilySocialRole/><EthnicGroup/>
+					<BirthDate>1986</BirthDate>
+					<Sex>Male</Sex>
+					<Education>Unspecified</Education>
+					<Age/><Contact/>
+				</Actor>
+				<Actor>
+					<Role>Statist</Role>
+					<Name>Michael Rießler</Name><FullName/>
+					<Code>MR-M-1971</Code><FamilySocialRole/><EthnicGroup/>
+					<BirthDate>1971</BirthDate>
+					<Sex>Male</Sex>
+					<Education>Unspecified</Education>
+					<Age/><Contact/>
+				</Actor>
+				<Actor>
+					<Role>Statist</Role>
+					<Name>Rogier Blokland</Name><FullName/>
+					<Code>RB-M-1971</Code><FamilySocialRole/><EthnicGroup/>
+					<BirthDate>1971</BirthDate>
+					<Sex>Male</Sex>
+					<Education>Unspecified</Education>
+					<Age/><Contact/>
+				</Actor>
+			</Actors>
+			<Resources>
+				<MediaFile ref="res_2">
+					<Type>audio</Type>
+					<Format>audio/wav</Format>
+					<Size>Unspecified</Size>
+					<Quality>Unspecified</Quality>
+					<RecordingConditions>Unspecified</RecordingConditions>
+					<TimePosition>
+						<Start>Unspecified</Start>
+						<End>Unspecified</End>
+					</TimePosition>
+				</MediaFile>
+				<WrittenResource ref="res_1">
+					<Date>Unspecified</Date>
+					<Type>document</Type>
+					<Format>text/x-eaf+xml</Format>
+					<Size>Unspecified</Size>
+					<Derivation>Unspecified</Derivation>
+					<CharacterEncoding>Unspecified</CharacterEncoding>
+					<ContentEncoding>Unspecified</ContentEncoding>
+					<LanguageId>kpv</LanguageId>
+					<Anonymized>false</Anonymized>
+					<Validation>
+						<Type>Unspecified</Type>
+						<Methodology>Unspecified</Methodology>
+						<Level>Unspecified</Level>
+					</Validation>
+					<Access>
+						<Availability>Unspecified</Availability>
+						<Date>Unspecified</Date>
+						<Owner>Unspecified</Owner>
+						<Publisher>Unspecified</Publisher><Contact/></Access>
+				</WrittenResource>
+			</Resources>
+		</lat-session>
+	</Components>
+</CMD>

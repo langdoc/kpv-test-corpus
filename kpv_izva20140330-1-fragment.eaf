@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2017-11-02T12:29:25+01:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/github/adv_elan_draft/corpus/kpv_izva20140330-1-fragment.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./kpv_izva20140330-1-fragment.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:e37685a7-0c46-4c3b-bc42-0020b955d496</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">123</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="6086"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="6488"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="9313"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="9313"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="14870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="14870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="18580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="18580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="21510"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="partT" TIER_ID="part"/>
+    <TIER LINGUISTIC_TYPE_REF="refT" PARTICIPANT="MVF-F-1984" TIER_ID="ref@MVF-F-1984">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>kpv_izva20140330-1-b-097</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>kpv_izva20140330-1-b-098</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>kpv_izva20140330-1-b-099</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>kpv_izva20140330-1-b-100</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>kpv_izva20140330-1-b-101</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="noteT" PARENT_REF="part" TIER_ID="note(part)"/>
+    <TIER LINGUISTIC_TYPE_REF="noteT" PARENT_REF="ref@MVF-F-1984" PARTICIPANT="MVF-F-1984" TIER_ID="note(ref)@MVF-F-1984"/>
+    <TIER LANG_REF="kpv" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@MVF-F-1984" PARTICIPANT="MVF-F-1984" TIER_ID="orth@MVF-F-1984">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Ме, кӧнечнэ же, кык лун вӧлі в шоке от Тайланда, потому что, но, менэ страны Юго - Восточной Азии зэй из привлекайтныс.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Ааа, но думайта: ветла, - и муні, значит.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>И сэтэн прӧстэ зэй уна ставыс  доступнэ, но разврат да быдчемаыс, и сыысь ме вӧлі в шоке зэй этша, а сэсся </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>слонъяс вылэ видзеді, экскурсияяс, ок, моресэ аддзылі, сэтэн Южно-Китайскей море.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>И ставыс сыа отойдитіс, сэсся, ну, кудз бы, иг обращайт на это внимание. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LANG_REF="kpv" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@MVF-F-1984" PARTICIPANT="MVF-F-1984" TIER_ID="word@MVF-F-1984">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Ме</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a11">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a12">
+                <ANNOTATION_VALUE>кӧнечнэ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a13">
+                <ANNOTATION_VALUE>же</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a14">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a15">
+                <ANNOTATION_VALUE>кык</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a17" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a16">
+                <ANNOTATION_VALUE>лун</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a18" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a17">
+                <ANNOTATION_VALUE>вӧлі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a19" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a18">
+                <ANNOTATION_VALUE>в</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a19">
+                <ANNOTATION_VALUE>шоке</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a20">
+                <ANNOTATION_VALUE>от</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a22" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a21">
+                <ANNOTATION_VALUE>Тайланда</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a22">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a23">
+                <ANNOTATION_VALUE>потому</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a24">
+                <ANNOTATION_VALUE>что</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a25">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a26">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a27">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a28">
+                <ANNOTATION_VALUE>менэ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a29">
+                <ANNOTATION_VALUE>страны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a30">
+                <ANNOTATION_VALUE>Юго</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a31">
+                <ANNOTATION_VALUE>-</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a32">
+                <ANNOTATION_VALUE>Восточной</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a33">
+                <ANNOTATION_VALUE>Азии</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a34">
+                <ANNOTATION_VALUE>зэй</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a35">
+                <ANNOTATION_VALUE>из</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a36">
+                <ANNOTATION_VALUE>привлекайтныс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a37">
+                <ANNOTATION_VALUE>.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Ааа</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a39">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a40">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a41">
+                <ANNOTATION_VALUE>думайта</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a42">
+                <ANNOTATION_VALUE>:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a43">
+                <ANNOTATION_VALUE>ветла</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a44">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a45">
+                <ANNOTATION_VALUE>-</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a46">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a47">
+                <ANNOTATION_VALUE>муні</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a48">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a49">
+                <ANNOTATION_VALUE>значит</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a50">
+                <ANNOTATION_VALUE>.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>И</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a52">
+                <ANNOTATION_VALUE>сэтэн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a53">
+                <ANNOTATION_VALUE>прӧстэ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a54">
+                <ANNOTATION_VALUE>зэй</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a55">
+                <ANNOTATION_VALUE>уна</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a56">
+                <ANNOTATION_VALUE>ставыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a57">
+                <ANNOTATION_VALUE>доступнэ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a58">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a59">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a60">
+                <ANNOTATION_VALUE>разврат</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a61">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a62">
+                <ANNOTATION_VALUE>быдчемаыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a63">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a64">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a65">
+                <ANNOTATION_VALUE>сыысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a66">
+                <ANNOTATION_VALUE>ме</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a67">
+                <ANNOTATION_VALUE>вӧлі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a68">
+                <ANNOTATION_VALUE>в</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a69">
+                <ANNOTATION_VALUE>шоке</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a70">
+                <ANNOTATION_VALUE>зэй</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a71">
+                <ANNOTATION_VALUE>этша</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a72">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a73">
+                <ANNOTATION_VALUE>а</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a8" PREVIOUS_ANNOTATION="a74">
+                <ANNOTATION_VALUE>сэсся</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>слонъяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a76">
+                <ANNOTATION_VALUE>вылэ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a77">
+                <ANNOTATION_VALUE>видзеді</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a78">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a79">
+                <ANNOTATION_VALUE>экскурсияяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a80">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a81">
+                <ANNOTATION_VALUE>ок</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a82">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a83">
+                <ANNOTATION_VALUE>моресэ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a84">
+                <ANNOTATION_VALUE>аддзылі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a85">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a86">
+                <ANNOTATION_VALUE>сэтэн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a87">
+                <ANNOTATION_VALUE>Южно-Китайскей</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a88">
+                <ANNOTATION_VALUE>море</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a9" PREVIOUS_ANNOTATION="a89">
+                <ANNOTATION_VALUE>.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>И</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a91">
+                <ANNOTATION_VALUE>ставыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a92">
+                <ANNOTATION_VALUE>сыа</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a93">
+                <ANNOTATION_VALUE>отойдитіс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a94">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a95">
+                <ANNOTATION_VALUE>сэсся</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a96">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a97">
+                <ANNOTATION_VALUE>ну</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a98">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a99">
+                <ANNOTATION_VALUE>кудз</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a100">
+                <ANNOTATION_VALUE>бы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a101">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a102">
+                <ANNOTATION_VALUE>иг</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a104" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a103">
+                <ANNOTATION_VALUE>обращайт</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a104">
+                <ANNOTATION_VALUE>на</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a106" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a105">
+                <ANNOTATION_VALUE>это</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a107" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a106">
+                <ANNOTATION_VALUE>внимание</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a108" ANNOTATION_REF="a10" PREVIOUS_ANNOTATION="a107">
+                <ANNOTATION_VALUE>.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@MVF-F-1984" PARTICIPANT="MVF-F-1984" TIER_ID="ft-eng@MVF-F-1984">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a109" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>I, of course, two days I was in shock in Thailand, because, well, those South-East Asian countries really didn't attract me.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a110" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Aa, but I think: I go, and I went, that's how it is.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a111" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>And there everything is very clear, well, poverty and all that, and because of that I was in only a bit in shock, and then</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a112" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>I watched the elephants, on excursion, oh, I saw the sea, there is South China Sea.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a113" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>And all that went away, then, well, how, I didn't pay attention to that.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@MVF-F-1984" PARTICIPANT="MVF-F-1984" TIER_ID="ft-rus@MVF-F-1984">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a114" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Я, конечно же, два дня была в шоке от Таиланда, потому что меня не очень привлекали страны Юго-Восточной Азии.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a115" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>А-а, но думаю: съезжу, - и поехала, значит.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a116" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>И там просто все очень доступно, ну разврат и всякое такое, и от этого я была немного в шоке, а потом</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a117" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>смотрела слонов, экскурсии, ох, море видела, там Южно-Китайское море.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a118" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>И это все отошло, затем, ну как бы не обращала на это внимания.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft-lingT" PARENT_REF="orth@MVF-F-1984" PARTICIPANT="MVF-F-1984" TIER_ID="ft-ling@MVF-F-1984"/>
+    <TIER LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@MVF-F-1984" PARTICIPANT="MVF-F-1984" TIER_ID="note(orth)@MVF-F-1984">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a119" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a121" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a122" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a123" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@MVF-F-1984" PARTICIPANT="MVF-F-1984" TIER_ID="note(word)@MVF-F-1984"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="partT" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="noteT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-engT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-deuT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-rusT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-sweT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-lingT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="wordT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" CONTROLLED_VOCABULARY_REF="pos" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="posT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="lg" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="lgT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="lemmaT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="morphT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-finT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="commentT" TIME_ALIGNABLE="true"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00131321-001" LANG_ID="kpv" LANG_LABEL="Komi-Zyrian (kpv)"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="GRAIDfunct">
+        <DESCRIPTION LANG_REF="und">Word-for-word glosses following the GRAID annotation system.</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE DESCRIPTION="subject of intransitive clause" LANG_REF="und">s</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE DESCRIPTION="subject of transitive clause" LANG_REF="und">a</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE DESCRIPTION="object of transitive clause" LANG_REF="und">p</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="goal argument or adjunct, also addressee or recipient" LANG_REF="und">g</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE DESCRIPTION="locative (also: source) argument or adjunct" LANG_REF="und">l</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE DESCRIPTION="oblique argument, but not a goal or locative (g and l are used for them)" LANG_REF="und">obl</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE DESCRIPTION="secondary object" LANG_REF="und">p2</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE DESCRIPTION="possessor" LANG_REF="und">poss</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE DESCRIPTION="other function" LANG_REF="und">other</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE DESCRIPTION="dislocated topic" LANG_REF="und">dt</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid10">
+            <CVE_VALUE DESCRIPTION="dislocated topic, corresponding to transitive subject" LANG_REF="und">dta</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid11">
+            <CVE_VALUE DESCRIPTION="dislocated topic, corresponding to transitive object" LANG_REF="und">dtp</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid12">
+            <CVE_VALUE DESCRIPTION="dislocated topic, corresponding to intransitive subject" LANG_REF="und">dts</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid13">
+            <CVE_VALUE DESCRIPTION="predicate" LANG_REF="und">pred</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid14">
+            <CVE_VALUE DESCRIPTION="existential predicate ('there is')" LANG_REF="und">predex</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid15">
+            <CVE_VALUE DESCRIPTION="no function on clause level" LANG_REF="und">--</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid16">
+            <CVE_VALUE DESCRIPTION="apposition" LANG_REF="und">appos</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid17">
+            <CVE_VALUE DESCRIPTION="coordinate element with s function" LANG_REF="und">cons</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid18">
+            <CVE_VALUE DESCRIPTION="coordinate element with a function" LANG_REF="und">cona</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid19">
+            <CVE_VALUE DESCRIPTION="coordinate element with p function" LANG_REF="und">conp</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid20">
+            <CVE_VALUE DESCRIPTION="coordinate element with nonspecified function" LANG_REF="und">con</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid21">
+            <CVE_VALUE DESCRIPTION="subject of intransitive clause with a predicate introducing direct speech" LANG_REF="und">s_ds</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid22">
+            <CVE_VALUE DESCRIPTION="locational predicate (especially for non-verbal predicates, as in HE IS IN THE GARDEN)" LANG_REF="und">pred_l</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid23">
+            <CVE_VALUE DESCRIPTION="dislocated topic, corresponding to goal, recipient or addressee" LANG_REF="und">dtg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid24">
+            <CVE_VALUE DESCRIPTION="coordinate element with g function" LANG_REF="und">cong</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="lg">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="pos-cp1">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="lg-cp1">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="GRAIDform">
+        <DESCRIPTION LANG_REF="und">Word-for-word glosses following the GRAID annotation system.</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE DESCRIPTION="covert argument / unfilled argument position with third person nonhuman referent" LANG_REF="und">0</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE DESCRIPTION="covert argument / unfilled argument position with first person referent" LANG_REF="und">0.1</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE DESCRIPTION="covert argument / unfilled argument position with second person referent" LANG_REF="und">0.2</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="covert argument / unfilled argument position with human referent" LANG_REF="und">0.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE DESCRIPTION="covert argument / unfilled argument position with nonhuman, anthropomorphized referent" LANG_REF="und">0.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE DESCRIPTION="'weak' clitic pronoun with third person nonhuman referent" LANG_REF="und">=pro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE DESCRIPTION="'weak' clitic pronoun with first person referent" LANG_REF="und">=pro.1</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE DESCRIPTION="'weak' clitic pronoun with second person referent" LANG_REF="und">=pro.2</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE DESCRIPTION="'weak' clitic pronoun with human referent" LANG_REF="und">=pro.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE DESCRIPTION="'weak' clitic pronoun with nonhuman, anthropomorphized referent" LANG_REF="und">=pro.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid10">
+            <CVE_VALUE DESCRIPTION="'weak', phonologically lighter pronoun with third person nonhuman referent" LANG_REF="und">wpro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid11">
+            <CVE_VALUE DESCRIPTION="'weak', phonologically lighter pronoun with first person referent" LANG_REF="und">wpro.1</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid12">
+            <CVE_VALUE DESCRIPTION="'weak', phonologically lighter pronoun with second person referent" LANG_REF="und">wpro.2</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid13">
+            <CVE_VALUE DESCRIPTION="'weak', phonologically lighter pronoun with human referent" LANG_REF="und">wpro.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid14">
+            <CVE_VALUE DESCRIPTION="'weak', phonologically lighter pronoun with nonhuman, anthropomorphized referent" LANG_REF="und">wpro.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid15">
+            <CVE_VALUE DESCRIPTION="free pronoun in full form with third person nonhuman referent" LANG_REF="und">pro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid16">
+            <CVE_VALUE DESCRIPTION="free pronoun in full form with first person referent" LANG_REF="und">pro.1</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid17">
+            <CVE_VALUE DESCRIPTION="free pronoun in full form with second person referent" LANG_REF="und">pro.2</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid18">
+            <CVE_VALUE DESCRIPTION="free pronoun in full form with human referent" LANG_REF="und">pro.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid19">
+            <CVE_VALUE DESCRIPTION="free pronoun in full form with nonhuman, anthropomorphized referent" LANG_REF="und">pro.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid20">
+            <CVE_VALUE DESCRIPTION="reflexive or reciprocal pronoun" LANG_REF="und">refl_pro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid21">
+            <CVE_VALUE DESCRIPTION="head of noun phrase with nonhuman referent" LANG_REF="und">np</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid22">
+            <CVE_VALUE DESCRIPTION="head of noun phrase with human referent" LANG_REF="und">np.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid23">
+            <CVE_VALUE DESCRIPTION="head of noun phrase with nonhuman, anthropomorphized referent" LANG_REF="und">np.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid24">
+            <CVE_VALUE DESCRIPTION="proper noun with nonhuman referent" LANG_REF="und">pn_np</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid25">
+            <CVE_VALUE DESCRIPTION="proper noun with human referent" LANG_REF="und">pn_np.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid26">
+            <CVE_VALUE DESCRIPTION="proper noun with nonhuman, anthropomorphized referent" LANG_REF="und">pn_np.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid27">
+            <CVE_VALUE DESCRIPTION="nonreferential pronoun" LANG_REF="und">xpro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid28">
+            <CVE_VALUE DESCRIPTION="subconstituent of an NP, occurring to the left of the head" LANG_REF="und">ln</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid29">
+            <CVE_VALUE DESCRIPTION="numeral within an NP, occurring to the left of the head" LANG_REF="und">ln_num</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid30">
+            <CVE_VALUE DESCRIPTION="attributive adjective within an NP, occurring to the left of the head" LANG_REF="und">ln_adj</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid31">
+            <CVE_VALUE DESCRIPTION="demonstrative, occurring to the left of its nominal head" LANG_REF="und">ln_dem</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid32">
+            <CVE_VALUE DESCRIPTION="head of an NP with a non-human referent, within another NP, with the embedded NP occurring to the left of the head" LANG_REF="und">ln_np</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid33">
+            <CVE_VALUE DESCRIPTION="head of an NP with a human referent, within another NP, with the embedded NP occurring to the left of the head" LANG_REF="und">ln_np.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid34">
+            <CVE_VALUE DESCRIPTION="head of an NP with a non-human anthropomorphized referent, within another NP, with the embedded NP occurring to the left of the head" LANG_REF="und">ln_np.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid35">
+            <CVE_VALUE DESCRIPTION="pronoun with a nonhuman referent within an NP, the pronoun occurring to the left of the head" LANG_REF="und">ln_pro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid36">
+            <CVE_VALUE DESCRIPTION="pronoun with a human referent within an NP, the pronoun occurring to the left of the head" LANG_REF="und">ln_pro.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid37">
+            <CVE_VALUE DESCRIPTION="pronoun with a nonhuman, anthropomorphized referent within an NP, the pronoun occurring to the left of the head" LANG_REF="und">ln_pro.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid38">
+            <CVE_VALUE DESCRIPTION="subconstituent of an NP, occurring to the right of the head" LANG_REF="und">rn</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid39">
+            <CVE_VALUE DESCRIPTION="head of an NP with a non-human referent that is a subconstituent of another noun phrase, with the embedded NP occurring to the right of the head noun" LANG_REF="und">rn_np</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid40">
+            <CVE_VALUE DESCRIPTION="head of an NP with a human referent that is a subconstituent of another noun phrase, with the embedded NP occurring to the right of the head noun" LANG_REF="und">rn_np.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid41">
+            <CVE_VALUE DESCRIPTION="full verb" LANG_REF="und">v</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid42">
+            <CVE_VALUE DESCRIPTION="verb of motion" LANG_REF="und">mot_v</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid43">
+            <CVE_VALUE DESCRIPTION="verb of caused motion" LANG_REF="und">causmot_v</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid44">
+            <CVE_VALUE DESCRIPTION="verb of speech" LANG_REF="und">say_v</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid45">
+            <CVE_VALUE DESCRIPTION="verb of transfer of possession" LANG_REF="und">give_v</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid46">
+            <CVE_VALUE DESCRIPTION="auxiliary" LANG_REF="und">aux</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid47">
+            <CVE_VALUE DESCRIPTION="clitic auxiliary" LANG_REF="und">=aux</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid48">
+            <CVE_VALUE DESCRIPTION="overt copular verb" LANG_REF="und">cop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid49">
+            <CVE_VALUE DESCRIPTION="clitic copular verb" LANG_REF="und">=cop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid50">
+            <CVE_VALUE DESCRIPTION="non-canonical verb form (as in converb or participial constructions)" LANG_REF="und">vother</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid51">
+            <CVE_VALUE DESCRIPTION="element within the verb phrase, occurring to the left of the head" LANG_REF="und">lv</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid52">
+            <CVE_VALUE DESCRIPTION="element within the verb phrase, occurring to the right of the head" LANG_REF="und">rv</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid53">
+            <CVE_VALUE DESCRIPTION="reflexive or reciprocal element (not a pronoun)" LANG_REF="und">refl</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid54">
+            <CVE_VALUE DESCRIPTION="adposition (preposition by default)" LANG_REF="und">adp</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid55">
+            <CVE_VALUE DESCRIPTION="coordinating clausal conjunction" LANG_REF="und">ccon</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid56">
+            <CVE_VALUE DESCRIPTION="subordinating clausal conjunction" LANG_REF="und">csub</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid57">
+            <CVE_VALUE DESCRIPTION="phrasal coordinator" LANG_REF="und">coo</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid58">
+            <CVE_VALUE DESCRIPTION="element not covered by the other glosses" LANG_REF="und">other</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid59">
+            <CVE_VALUE DESCRIPTION="main clause" LANG_REF="und">##</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid60">
+            <CVE_VALUE DESCRIPTION="main clause with negative polarity" LANG_REF="und">##neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid61">
+            <CVE_VALUE DESCRIPTION="main clause in direct speech" LANG_REF="und">##ds</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid62">
+            <CVE_VALUE DESCRIPTION="main clause with negative polarity in direct speech" LANG_REF="und">##ds.neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid63">
+            <CVE_VALUE DESCRIPTION="adverbial clause" LANG_REF="und">#ac</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid64">
+            <CVE_VALUE DESCRIPTION="adverbial clause with negative polarity" LANG_REF="und">#ac.neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid65">
+            <CVE_VALUE DESCRIPTION="adverbial clause in direct speech" LANG_REF="und">#ds_ac</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid66">
+            <CVE_VALUE DESCRIPTION="adverbial clause with negative polarity in direct speech" LANG_REF="und">#ds_ac.neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid67">
+            <CVE_VALUE DESCRIPTION="complement clause" LANG_REF="und">#cc</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid68">
+            <CVE_VALUE DESCRIPTION="complement clause with negative polarity" LANG_REF="und">#cc.neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid69">
+            <CVE_VALUE DESCRIPTION="complement clause in direct speech" LANG_REF="und">#ds_cc</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid70">
+            <CVE_VALUE DESCRIPTION="complement clause with negative polarity in direct speech" LANG_REF="und">#ds_cc.neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid71">
+            <CVE_VALUE DESCRIPTION="relative clause" LANG_REF="und">#rc</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid72">
+            <CVE_VALUE DESCRIPTION="relative clause with negative polarity" LANG_REF="und">#rc.neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid73">
+            <CVE_VALUE DESCRIPTION="relative clause in direct speech" LANG_REF="und">#ds_rc</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid74">
+            <CVE_VALUE DESCRIPTION="relative clause with negative polarity in direct speech" LANG_REF="und">#ds_rc.neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid75">
+            <CVE_VALUE DESCRIPTION="embedded/dependent clause of unspecified type (also used for coordinate clauses)" LANG_REF="und">#</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid76">
+            <CVE_VALUE DESCRIPTION="embedded/dependent clause of unspecified type (also used for coordinate clauses) with negative polarity" LANG_REF="und">#neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid77">
+            <CVE_VALUE DESCRIPTION="embedded/dependent clause of unspecified type (also used for coordinate clauses) in direct speech" LANG_REF="und">#ds</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid78">
+            <CVE_VALUE DESCRIPTION="embedded/dependent clause of unspecified type (also used for coordinate clauses) with negative polarity in direct speech" LANG_REF="und">#ds.neg</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid79">
+            <CVE_VALUE DESCRIPTION="end of embedded clause, what follows is a main clause" LANG_REF="und">%</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid80">
+            <CVE_VALUE DESCRIPTION="clause or section of speech that is not considered for analysis" LANG_REF="und">#nc</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid81">
+            <CVE_VALUE DESCRIPTION="coordinator within an NP (also within one NP consisting of two coordinated NPs), occurring to the left of the NP's head" LANG_REF="und">ln_coo</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid82">
+            <CVE_VALUE DESCRIPTION="postposition" LANG_REF="und">pop_adp</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid83">
+            <CVE_VALUE DESCRIPTION="interrogative pronoun with expected nonhuman referent" LANG_REF="und">wh_pro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid84">
+            <CVE_VALUE DESCRIPTION="interrogative pronoun with expected human referent" LANG_REF="und">wh_pro.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid85">
+            <CVE_VALUE DESCRIPTION="interrogative demonstrative article ('which ...?'), standing to the left of the head noun" LANG_REF="und">wh_ln_dem</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid86">
+            <CVE_VALUE DESCRIPTION="head of an NP with a non-human anthropomorphized referent, within another NP, with the embedded NP occurring to the right of the head" LANG_REF="und">rn_np.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid87">
+            <CVE_VALUE DESCRIPTION="pronoun with a nonhuman referent within an NP, the pronoun occurring to the right of the head" LANG_REF="und">rn_pro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid88">
+            <CVE_VALUE DESCRIPTION="pronoun with a human referent within an NP, the pronoun occurring to the right of the head" LANG_REF="und">rn_pro.h</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid89">
+            <CVE_VALUE DESCRIPTION="pronoun with a nonhuman, anthropomorphized referent within an NP, the pronoun occurring to the right of the head" LANG_REF="und">rn_pro.d</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid90">
+            <CVE_VALUE DESCRIPTION="numeral within an NP, occurring to the right of the head" LANG_REF="und">rn_num</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid91">
+            <CVE_VALUE DESCRIPTION="attributive adjective within an NP, occurring to the right of the head" LANG_REF="und">rn_adj</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid92">
+            <CVE_VALUE DESCRIPTION="demonstrative, occurring to the right of its nominal head" LANG_REF="und">rn_dem</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid93">
+            <CVE_VALUE DESCRIPTION="coordinator within an NP (also within one NP consisting of two coordinated NPs), occurring to the right of the NP's head" LANG_REF="und">rn_coo</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="pos">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>
