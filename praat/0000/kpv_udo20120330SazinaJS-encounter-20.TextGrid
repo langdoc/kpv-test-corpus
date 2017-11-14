@@ -1,0 +1,142 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.283 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "ORT" 
+        xmin = 0 
+        xmax = 1.283 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.00998958333333333 
+            text = "" 
+        intervals [2]:
+            xmin = 0.00998958333333333 
+            xmax = 0.119989583333333 
+            text = "и" 
+        intervals [3]:
+            xmin = 0.119989583333333 
+            xmax = 0.209989583333333 
+            text = "ко" 
+        intervals [4]:
+            xmin = 0.209989583333333 
+            xmax = 0.389989583333333 
+            text = "" 
+        intervals [5]:
+            xmin = 0.389989583333333 
+            xmax = 0.809989583333333 
+            text = "кос" 
+        intervals [6]:
+            xmin = 0.809989583333333 
+            xmax = 1.23998958333333 
+            text = "няньыс" 
+        intervals [7]:
+            xmin = 1.23998958333333 
+            xmax = 1.283 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "KAN" 
+        xmin = 0 
+        xmax = 1.283 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.00998958333333333 
+            text = "" 
+        intervals [2]:
+            xmin = 0.00998958333333333 
+            xmax = 0.119989583333333 
+            text = "i" 
+        intervals [3]:
+            xmin = 0.119989583333333 
+            xmax = 0.209989583333333 
+            text = "k o" 
+        intervals [4]:
+            xmin = 0.209989583333333 
+            xmax = 0.389989583333333 
+            text = "" 
+        intervals [5]:
+            xmin = 0.389989583333333 
+            xmax = 0.809989583333333 
+            text = "k o s" 
+        intervals [6]:
+            xmin = 0.809989583333333 
+            xmax = 1.23998958333333 
+            text = "n_j a n_j 1 s" 
+        intervals [7]:
+            xmin = 1.23998958333333 
+            xmax = 1.283 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "MAUS" 
+        xmin = 0 
+        xmax = 1.283 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.00998958333333333 
+            text = "<p:>" 
+        intervals [2]:
+            xmin = 0.00998958333333333 
+            xmax = 0.119989583333333 
+            text = "i" 
+        intervals [3]:
+            xmin = 0.119989583333333 
+            xmax = 0.159989583333333 
+            text = "k" 
+        intervals [4]:
+            xmin = 0.159989583333333 
+            xmax = 0.209989583333333 
+            text = "o" 
+        intervals [5]:
+            xmin = 0.209989583333333 
+            xmax = 0.389989583333333 
+            text = "<p:>" 
+        intervals [6]:
+            xmin = 0.389989583333333 
+            xmax = 0.619989583333333 
+            text = "k" 
+        intervals [7]:
+            xmin = 0.619989583333333 
+            xmax = 0.719989583333333 
+            text = "o" 
+        intervals [8]:
+            xmin = 0.719989583333333 
+            xmax = 0.809989583333333 
+            text = "s" 
+        intervals [9]:
+            xmin = 0.809989583333333 
+            xmax = 0.849989583333333 
+            text = "n_j" 
+        intervals [10]:
+            xmin = 0.849989583333333 
+            xmax = 1.01998958333333 
+            text = "a" 
+        intervals [11]:
+            xmin = 1.01998958333333 
+            xmax = 1.06998958333333 
+            text = "n_j" 
+        intervals [12]:
+            xmin = 1.06998958333333 
+            xmax = 1.10998958333333 
+            text = "1" 
+        intervals [13]:
+            xmin = 1.10998958333333 
+            xmax = 1.23998958333333 
+            text = "s" 
+        intervals [14]:
+            xmin = 1.23998958333333 
+            xmax = 1.28298958333333 
+            text = "<p:>" 
+        intervals [15]:
+            xmin = 1.28298958333333 
+            xmax = 1.283 
+            text = "" 
